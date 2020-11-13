@@ -46,7 +46,7 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 
 11 – Ativar a opção Activate Incoming Webhooks, e após abrir a opção, adicionar um novo Webhook para o Workspace, em “Add New Webhook to Workspace’:
 
-![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimage11.jpg)
+![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimagem11.jpg)
 
 12 – Na página seguinte, escolher o canal onde o App vai postar as mensagens e clicar em permitir:
 
