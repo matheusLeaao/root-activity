@@ -55,7 +55,7 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 
 13 – Após a autorização, o acesso voltará a página anterior, onde poderemos copiar a URL de Webhook, a qual será necessária para implementação da Lambda que irá enviar a atividade do Root para o Slack:
 
-![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/blob/master/Images/tutoimagem20.jpg)
+![Alt text](Images/tutoimagem20.jpg)
 
 
 14 – Criaremos uma nova função Lambda, a qual irá publicar o SNS para o Webhook do Slack. Dentro do Dashboard do Lambda, iremos na opção “Criar função”:
