@@ -15,13 +15,12 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 4 – Na página a seguir, inicialmente, escolher a opção de template pronto, com a origem de um S3, e informar a URL do objeto para a criação, e após, prosseguir;
 ![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimagem3.jpg)
 
-5 – Ao prosseguir, preencher os seguintes dados:
-**Stack name:** com o nome da Stack que será criada para provisionamento;
-
+5 – Ao prosseguir, preencher os seguintes dados:<br>
+**Stack name:** com o nome da Stack que será criada para provisionamento;<br>
 **SNSSubscriptions:** o endereço de e-mail que irá efetuar a a inscrição SNS;<br>
-**SNSTopicName:** Nome do tópico SNS que irá receber a notificação do root (e que será utilizado posteriormente para a Lambda que irá triggar a notificação do Slack);
-**LambdaTimeout:** o tempo para timeout da função Lambda. Pode ser deixado o padrão de 60 segundos;
-**LambdaS3bucket:** Nome do Bucket em que foram provisionados os arquivos no passo 1;
+**SNSTopicName:** Nome do tópico SNS que irá receber a notificação do root (e que será utilizado posteriormente para a Lambda que irá triggar a notificação do Slack);<br>
+**LambdaTimeout:** o tempo para timeout da função Lambda. Pode ser deixado o padrão de 60 segundos;<br>
+**LambdaS3bucket:** Nome do Bucket em que foram provisionados os arquivos no passo 1;<br>
 
 
 ![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimagem4.jpg)
