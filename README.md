@@ -19,11 +19,8 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 **Stack name:** com o nome da Stack que será criada para provisionamento;
 
 **SNSSubscriptions:** o endereço de e-mail que irá efetuar a a inscrição SNS;
-
 **SNSTopicName:** Nome do tópico SNS que irá receber a notificação do root (e que será utilizado posteriormente para a Lambda que irá triggar a notificação do Slack);
-
 **LambdaTimeout:** o tempo para timeout da função Lambda. Pode ser deixado o padrão de 60 segundos;
-
 **LambdaS3bucket:** Nome do Bucket em que foram provisionados os arquivos no passo 1;
 
 
