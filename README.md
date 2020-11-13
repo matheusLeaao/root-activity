@@ -72,7 +72,7 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 
 
 
-17 – Após, subiremos o arquivo , substituindo o valor variável “url” pela URL de Webhook que copiamos no passo 15, dentro da IDE do Lamba e clicaremos em Deploy, conforme imagem abaixo:
+17 – Após, copiar o código contido no arquivo WebhooktoSlack.zip, substituindo o valor variável “url” pela URL de Webhook que copiamos no passo 15, dentro da IDE do Lamba e clicaremos em Deploy, conforme imagem abaixo:
 
 
 
