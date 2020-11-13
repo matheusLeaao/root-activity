@@ -60,7 +60,7 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 
 14 – Criaremos uma nova função Lambda, a qual irá publicar o SNS para o Webhook do Slack. Dentro do Dashboard do Lambda, iremos na opção “Criar função”:
 
-![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimage14.jpg)
+![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimagem14.jpg)
 
 15 – Iremos criar uma função do zero, no qual teremos de definir o nome da função e como Runtime, escolheremos o Python 3.6:
 
