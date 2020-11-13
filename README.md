@@ -17,10 +17,15 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 
 5 – Ao prosseguir, preencher os seguintes dados:
 **Stack name:** com o nome da Stack que será criada para provisionamento;
+
 **SNSSubscriptions:** o endereço de e-mail que irá efetuar a a inscrição SNS;
+
 **SNSTopicName:** Nome do tópico SNS que irá receber a notificação do root (e que será utilizado posteriormente para a Lambda que irá triggar a notificação do Slack);
+
 **LambdaTimeout:** o tempo para timeout da função Lambda. Pode ser deixado o padrão de 60 segundos;
+
 **LambdaS3bucket:** Nome do Bucket em que foram provisionados os arquivos no passo 1;
+
 
 ![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimagem4.jpg)
 
