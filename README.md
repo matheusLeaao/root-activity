@@ -74,3 +74,37 @@ Esta documentação se destina a como implementar o envio da atividade de conta 
 
 17 – Após, colocaremos o seguinte código, substituindo o valor variável “url” pela URL de Webhook que copiamos no passo 15, dentro da IDE do Lamba e clicaremos em Deploy, conforme imagem abaixo:
 
+`#!/usr/bin/python3.6 
+import urllib3 
+import json 
+http = urllib3.PoolManager() 
+def lambda_handler(event, context): 
+	url = "https://hooks.slack.com/services/xxxxxxx" 
+	message = json.loads(event['Records'][0]['Sns']['Message'])
+	message_detail = message['detail']
+	message_identity = message_detail['userIdentity']
+	
+	msg_filter = {
+		"Usuario": message_identity['type'],
+		"Regiao": message_detail['awsRegion'],
+		"Evento": message_detail['eventName'],
+		"Servico": message_detail['eventSource']
+	}
+	
+	message_dump= json.dumps(msg_filter)
+	msg = { 
+		"channel": "#Victor Magar", 
+		"username": "WEBHOOK_USERNAME", 
+		"text": message_dump, 
+		"icon_emoji": "" 
+	} 
+	
+
+	encoded_msg = json.dumps(msg).encode('utf-8') 
+	resp = http.request('POST',url, body=encoded_msg) 
+	
+	print(message_dump)`
+
+![Alt text](https://gitlab.com/mandic-labs/teams/team-delta/tutoriais/root-activity/-/raw/d007f73db0ed767ccf1009e21b379aacf9bd88be/Images/tutoimagem17.jpg)
+
+18 - Sua solução está implementada corretamente, onde os Webhooks serão enviados a sala correspondente.
